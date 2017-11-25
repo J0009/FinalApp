@@ -133,9 +133,10 @@ h1 {
     font-family: Times New Roman;
     color: grey;
     font-size: 4em;
+    position: fixed;
+    text-indent: 150px;
     animation:fade 2000ms infinite;
     -webkit-animation:fade 2000ms infinite;
 }
 
 .ripple, a.link, a.item-link, .button, .modal-button, .tab-link, .label-radio, .label-checkbox, .actions-modal-button, a.searchbar-clear, .floating-button
-}

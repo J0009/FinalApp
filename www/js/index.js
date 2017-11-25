@@ -16,116 +16,66 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+ReactDOM.render(<center>
+	<div class="line1"> Select Your Fighter</div></center>, document.getElementById('t'));
 
-// ReactDOM.render(
-//     <div class="page-content">
-//         <div class="content-block">
-//             <div class="content-block-inner">
-//             <center>
-//             <a href="page2.html"><img src="img/1.jpg" class="lazy lazy-fadeIn"/></a>
-//             </center>
-//             </div>
-//         </div>
-//     </div>, document.getElementById('1'));
+let dom =<center> 
+	<table cellpadding="30%">
+		<tr>
+			<td><a href="1.html"><img src="img/1.jpg" value="1"/></a></td>
+			<td><a href="2.html"><img src="img/2.jpg" value="2"/></a></td>
+			<td><a href="3.html"><img src="img/3.jpg" value="3"/></a></td>
+			<td><a href="4.html"><img src="img/4.jpg" value="4"/></a></td>
+		</tr>
+		<tr>
+			<td><a href="5.html"><img src="img/5.png" value="5"/></a></td>
+			<td><a href="6.html"><img src="img/6.jpg" value="6"/></a></td>
+			<td><a href="7.html"><img src="img/7.jpg" value="7"/></a></td>
+			<td><a href="8.html"><img src="img/8.jpg" value="8"/></a></td>
+		</tr>
+		<tr>
+			<td><a href="9.html"><img src="img/9.png" /></a></td>
+			<td><a href="10.html"><img src="img/10.png" /></a></td>
+			<td><a href="11.html"><img src="img/11.png" /></a></td>
+			<td><a href="12.html"><img src="img/12.png" /></a></td>
+		</tr>
+		<tr>
+			<td><a href="13.html"><img src="img/13.png" /></a></td>
+			<td><a href="14.html"><img src="img/14.png" /></a></td>
+			<td><a href="15.html"><img src="img/15.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="16.html"><img src="img/16.jpg" class="lazy lazy-fadeIn"/></a></td>
+		</tr>
+		<tr>
+			<td><a href="17.html"><img src="img/17.png" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="18.html"><img src="img/18.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="19.html"><img src="img/19.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="20.html"><img src="img/20.jpg" class="lazy lazy-fadeIn"/></a></td>
+		</tr>
+		<tr>
+			<td><a href="21.html"><img src="img/21.png" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="22.html"><img src="img/22.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="23.html"><img src="img/23.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="24.html"><img src="img/24.png" class="lazy lazy-fadeIn"/></a></td>
+		</tr>
+		<tr>
+			<td><a href="25.html"><img src="img/25.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="26.html"><img src="img/26.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="27.html"><img src="img/27.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="28.html"><img src="img/28.jpg" class="lazy lazy-fadeIn"/></a></td>
+		</tr>
+		<tr>
+			<td><a href="29.html"><img src="img/29.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="30.html"><img src="img/30.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="31.html"><img src="img/31.jpg" class="lazy lazy-fadeIn"/></a></td>
+			<td><a href="32.html"><img src="img/32.jpg" class="lazy lazy-fadeIn"/></a></td>
+		</tr>
+		<tr>
+			<td><a href="33.html"><img src="img/33.jpg" class="lazy lazy-fadeIn"/></a></td>
+		</tr>
+	</table>
+</center>;
 
-// ReactDOM.render(
-//     <div class="page-content">
-//         <div class="content-block">
-//             <div class="content-block-inner">
-//             <center>
-//             <p><img src="img/2.jpg" class="lazy lazy-fadeIn"/></p>
-//             </center>
-//             </div>
-//         </div>
-//     </div>, document.getElementById('2'));
-
-// ReactDOM.render(
-//     <div class="page-content">
-//         <div class="content-block">
-//             <div class="content-block-inner">
-//             <center>
-//             <p><img src="img/3.jpg" class="lazy lazy-fadeIn"/></p>
-//             </center>
-//             </div>
-//         </div>
-//     </div>, document.getElementById('3'));
-
-// ReactDOM.render(
-//     <div class="page-content">
-//         <div class="content-block">
-//             <div class="content-block-inner">
-//             <center>
-//             <p><img src="img/4.jpg" class="lazy lazy-fadeIn"/></p>
-//             </center>
-//             </div>
-//         </div>
-//     </div>, document.getElementById('4'));
-
-// ReactDOM.render(
-//     <div class="page-content">
-//         <div class="content-block">
-//             <div class="content-block-inner">
-//             <center>
-//             <p><img src="img/5.png" class="lazy lazy-fadeIn"/></p>
-//             </center>
-//             </div>
-//         </div>
-//     </div>, document.getElementById('5'));
-
-// ReactDOM.render(
-//     <div class="page-content">
-//         <div class="content-block">
-//             <div class="content-block-inner">
-//             <center>
-//             <p><img src="img/6.jpg" class="lazy lazy-fadeIn"/></p>
-//             </center>
-//             </div>
-//         </div>
-//     </div>, document.getElementById('6'));
-
-// ReactDOM.render(
-//     <div class="page-content">
-//         <div class="content-block">
-//             <div class="content-block-inner">
-//             <center>
-//             <p><img src="img/7.jpg" class="lazy lazy-fadeIn"/></p>
-//             </center>
-//             </div>
-//         </div>
-//     </div>, document.getElementById('7'));
-
-// ReactDOM.render(
-//     <div class="page-content">
-//         <div class="content-block">
-//             <div class="content-block-inner">
-//             <center>
-//             <p><img src="img/8.jpg" class="lazy lazy-fadeIn"/></p>
-//             </center>
-//             </div>
-//         </div>
-//     </div>, document.getElementById('8'));
-
-// ReactDOM.render(
-//     <div class="page-content">
-//         <div class="content-block">
-//             <div class="content-block-inner">
-//             <center>
-//             <p><img src="img/9.png" class="lazy lazy-fadeIn"/></p>
-//             </center>
-//             </div>
-//         </div>
-//     </div>, document.getElementById('9'));
-
-// ReactDOM.render(
-//     <div class="page-content">
-//         <div class="content-block">
-//             <div class="content-block-inner">
-//             <center>
-//             <p><img src="img/10.png" class="lazy lazy-fadeIn"/></p>
-//             </center>
-//             </div>
-//         </div>
-//     </div>, document.getElementById('10'));
+ReactDOM.render(dom, document.getElementById('c'));
 
 // <GridRow>
 //     <GridCol><img src="img/1.jpg"/></GridCol>
