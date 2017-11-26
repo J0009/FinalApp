@@ -23,16 +23,16 @@ ReactDOM.render(
 let dom =<center> 
 	<div class="content-block">
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="1.html"><img src="img/1.jpg" value="1"/></a></div>
-			<div class="col-auto tablet-auto"><a href="2.html"><img src="img/2.jpg" value="2"/></a></div>
-			<div class="col-auto tablet-auto"><a href="3.html"><img src="img/3.jpg" value="3"/></a></div>
-			<div class="col-auto tablet-auto"><a href="4.html"><img src="img/4.jpg" value="4"/></a></div>
+			<div class="col-auto tablet-auto"><a href="1.html"><img src="img/1.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="2.html"><img src="img/2.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="3.html"><img src="img/3.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="4.html"><img src="img/4.jpg"/></a></div>
 		</div><br/>
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="5.html"><img src="img/5.png" value="5"/></a></div>
-			<div class="col-auto tablet-auto"><a href="6.html"><img src="img/6.jpg" value="6"/></a></div>
-			<div class="col-auto tablet-auto"><a href="7.html"><img src="img/7.jpg" value="7"/></a></div>
-			<div class="col-auto tablet-auto"><a href="8.html"><img src="img/8.jpg" value="8"/></a></div>
+			<div class="col-auto tablet-auto"><a href="5.html"><img src="img/5.png"/></a></div>
+			<div class="col-auto tablet-auto"><a href="6.html"><img src="img/6.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="7.html"><img src="img/7.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="8.html"><img src="img/8.jpg"/></a></div>
 		</div><br/>
 		<div class="row">
 			<div class="col-auto tablet-auto"><a href="9.html"><img src="img/9.png" /></a></div>
@@ -47,31 +47,31 @@ let dom =<center>
 			<div class="col-auto tablet-auto"><a href="16.html"><img src="img/16.jpg" /></a></div>
 		</div><br/>
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="17.html"><img src="img/17.png" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="18.html"><img src="img/18.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="19.html"><img src="img/19.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="20.html"><img src="img/20.jpg" class="lazy lazy-fadeIn"/></a></div>
+			<div class="col-auto tablet-auto"><a href="17.html"><img src="img/17.png"/></a></div>
+			<div class="col-auto tablet-auto"><a href="18.html"><img src="img/18.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="19.html"><img src="img/19.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="20.html"><img src="img/20.jpg"/></a></div>
 		</div><br/>
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="21.html"><img src="img/21.png" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="22.html"><img src="img/22.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="23.html"><img src="img/23.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="24.html"><img src="img/24.png" class="lazy lazy-fadeIn"/></a></div>
+			<div class="col-auto tablet-auto"><a href="21.html"><img src="img/21.png"/></a></div>
+			<div class="col-auto tablet-auto"><a href="22.html"><img src="img/22.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="23.html"><img src="img/23.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="24.html"><img src="img/24.png"/></a></div>
 		</div><br/>
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="25.html"><img src="img/25.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="26.html"><img src="img/26.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="27.html"><img src="img/27.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="28.html"><img src="img/28.jpg" class="lazy lazy-fadeIn"/></a></div>
+			<div class="col-auto tablet-auto"><a href="25.html"><img src="img/25.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="26.html"><img src="img/26.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="27.html"><img src="img/27.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="28.html"><img src="img/28.jpg"/></a></div>
 		</div><br/>
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="29.html"><img src="img/29.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="30.html"><img src="img/30.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="31.html"><img src="img/31.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="32.html"><img src="img/32.jpg" class="lazy lazy-fadeIn"/></a></div>
+			<div class="col-auto tablet-auto"><a href="29.html"><img src="img/29.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="30.html"><img src="img/30.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="31.html"><img src="img/31.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="32.html"><img src="img/32.jpg"/></a></div>
 		</div><br/>
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="33.html"><img src="img/33.jpg" class="lazy lazy-fadeIn"/></a></div>
+			<div class="col-auto tablet-auto"><a href="33.html"><img src="img/33.jpg"/></a></div>
 		</div>
 	</div>
 </center>;

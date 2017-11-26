@@ -45,10 +45,8 @@ body {
     width:100%;
 }
 body.bg1{
-    background-image: url(../img/Background1.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background: url(../img/Background1.jpg) no-repeat fixed center center;
+    background-size: cover;
 }
 .bg2{
     background: url(../img/Background2.jpg) no-repeat fixed center top;
@@ -127,7 +125,8 @@ h1 {
     font-family: Times New Roman;
     text-decoration-line: none;
     color: orange;
-    font-size: 1.5em;
+    position: top: 40%;
+    font-size: 2em;
 }
 .line1{
     font-family: Times New Roman;
@@ -139,7 +138,7 @@ h1 {
     -webkit-animation:fade 2000ms infinite;
 }
 img{
-    width: 60%
+    width: 40%
     height:auto;
 }
 .ripple, a.link, a.item-link, .button, .modal-button, .tab-link, .label-radio, .label-checkbox, .actions-modal-button, a.searchbar-clear, .floating-button
