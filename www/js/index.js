@@ -16,7 +16,6 @@
  * specific language governing permissions and limitations
  * under the License.
  */
- class="col-50 tablet-auto
 ReactDOM.render(
 	<center>
 	<div class="line1"> Select Your Fighter</div></center>, document.getElementById('t'));
