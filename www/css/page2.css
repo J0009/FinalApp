@@ -91,7 +91,7 @@ h1 {
 }
 .n{
 	color: black;
-    font-size: 3em;
+    font-size: 2em;
     text-indent: 150px;
     animation:fade 2000ms infinite;
     -webkit-animation:fade 2000ms infinite;
@@ -100,16 +100,17 @@ p{
 	background-color: black;
 	text-indent: 40px;
 	text-transform: uppercase;
-	font-size: 2.3em;
+	font-size: 25px;
 	color: red;
 
 }
 div{
 	background-color: black;
 	text-indent: 2em;
-	font-size: 2em;
+	font-size: 20px;
 	color: white;
 }
 img{
-	size: 900px,1400px
+	width: 500px;
+    height: auto;
 }
