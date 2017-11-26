@@ -127,14 +127,14 @@ h1 {
     font-family: Times New Roman;
     text-decoration-line: none;
     color: orange;
-    font-size: 4em;
+    font-size: 1em;
 }
 .line1{
     font-family: Times New Roman;
     color: grey;
-    font-size: 4em;
+    font-size: 1em;
     position: fixed;
-    text-indent: 150px;
+    text-indent: 10%;
     animation:fade 2000ms infinite;
     -webkit-animation:fade 2000ms infinite;
 }
