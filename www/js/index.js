@@ -17,34 +17,33 @@
  * under the License.
  */
 ReactDOM.render(
-	<center>
-	<div class="line1"> Select Your Fighter</div></center>, document.getElementById('t'));
+	<div class="line1"> Select Your Fighter</div>, document.getElementById('t'));
 
 let dom =<center> 
 	<div class="content-block">
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="1.html"><img src="img/1.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="2.html"><img src="img/2.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="3.html"><img src="img/3.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="4.html"><img src="img/4.jpg" class="lazy lazy-fadeIn"/></a></div>
+			<div class="col-auto tablet-auto"><a href="1.html"><img src="img/1.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="2.html"><img src="img/2.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="3.html"><img src="img/3.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="4.html"><img src="img/4.jpg"/></a></div>
 		</div><br/>
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="5.html"><img src="img/5.png" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="6.html"><img src="img/6.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="7.html"><img src="img/7.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="8.html"><img src="img/8.jpg" class="lazy lazy-fadeIn"/></a></div>
+			<div class="col-auto tablet-auto"><a href="5.html"><img src="img/5.png"/></a></div>
+			<div class="col-auto tablet-auto"><a href="6.html"><img src="img/6.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="7.html"><img src="img/7.jpg"/></a></div>
+			<div class="col-auto tablet-auto"><a href="8.html"><img src="img/8.jpg"/></a></div>
 		</div><br/>
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="9.html"><img src="img/9.png" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="10.html"><img src="img/10.png" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="11.html"><img src="img/11.png" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="12.html"><img src="img/12.png" class="lazy lazy-fadeIn"/></a></div>
+			<div class="col-auto tablet-auto"><a href="9.html"><img src="img/9.png" /></a></div>
+			<div class="col-auto tablet-auto"><a href="10.html"><img src="img/10.png" /></a></div>
+			<div class="col-auto tablet-auto"><a href="11.html"><img src="img/11.png" /></a></div>
+			<div class="col-auto tablet-auto"><a href="12.html"><img src="img/12.png" /></a></div>
 		</div><br/>
 		<div class="row">
-			<div class="col-auto tablet-auto"><a href="13.html"><img src="img/13.png" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="14.html"><img src="img/14.png" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="15.html"><img src="img/15.jpg" class="lazy lazy-fadeIn"/></a></div>
-			<div class="col-auto tablet-auto"><a href="16.html"><img src="img/16.jpg" class="lazy lazy-fadeIn"/></a></div>
+			<div class="col-auto tablet-auto"><a href="13.html"><img src="img/13.png" /></a></div>
+			<div class="col-auto tablet-auto"><a href="14.html"><img src="img/14.png" /></a></div>
+			<div class="col-auto tablet-auto"><a href="15.html"><img src="img/15.jpg" /></a></div>
+			<div class="col-auto tablet-auto"><a href="16.html"><img src="img/16.jpg" /></a></div>
 		</div><br/>
 		<div class="row">
 			<div class="col-auto tablet-auto"><a href="17.html"><img src="img/17.png" class="lazy lazy-fadeIn"/></a></div>
