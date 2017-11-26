@@ -47,8 +47,8 @@ body {
 body.bg1{
     background-image: url(../img/Background1.jpg);
     background-attachment: fixed;
-    background-repeat: repeat-y;
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .bg2{
     background: url(../img/Background2.jpg) no-repeat fixed center top;
@@ -138,5 +138,8 @@ h1 {
     animation:fade 2000ms infinite;
     -webkit-animation:fade 2000ms infinite;
 }
-
+img{
+    width: 60%
+    height:auto;
+}
 .ripple, a.link, a.item-link, .button, .modal-button, .tab-link, .label-radio, .label-checkbox, .actions-modal-button, a.searchbar-clear, .floating-button
