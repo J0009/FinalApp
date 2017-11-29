@@ -16,9 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-ReactDOM.render(
-	<div class="line1"> Select Your Fighter</div>, document.getElementById('t'));
-
+ReactDOM.render(<center>
+	<div class="line1"> Select Your Fighter</div> </center>, document.getElementById('t'));
+	
 let dom =<center> 
 	<div class="content-block">
 		<div class="row">
@@ -70,7 +70,9 @@ let dom =<center>
 			<div class="col-auto tablet-auto"><a href="32.html"><img src="img/32.jpg" class="lazy lazy-fadeIn"/></a></div>
 		</div><br/>
 		<div class="row">
+			<div class="col-auto tablet-auto"><img src="img/34.jpg" class="lazy lazy-fadeIn"/></div>
 			<div class="col-auto tablet-auto"><a href="33.html"><img src="img/33.jpg" class="lazy lazy-fadeIn"/></a></div>
+			<div class="col-auto tablet-auto"><img src="img/34.jpg" class="lazy lazy-fadeIn"/></div>
 		</div>
 	</div>
 </center>;
