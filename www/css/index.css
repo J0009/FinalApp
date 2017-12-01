@@ -128,14 +128,13 @@ h1 {
     text-indent: 35%;
     position: top:45%;
     font-size: 2em;
-    margin-right: 35%;
     text-decoration-style: solid;
 }
 .line1{
     font-family: Times New Roman;
     color: rgb(216,201,14);
     font-size: 2em;
-    text-indent: 25%;
+    text-indent: 35%;
     position: fixed;
     animation:fade 1000ms infinite;
     -webkit-animation:fade 1000ms infinite;
