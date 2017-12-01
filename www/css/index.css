@@ -134,13 +134,13 @@ h1 {
     font-family: Times New Roman;
     color: rgb(216,201,14);
     font-size: 2em;
-    text-indent: 35%;
+    text-indent: 25%;
     position: fixed;
     animation:fade 1000ms infinite;
     -webkit-animation:fade 1000ms infinite;
 }
 img{
-    width: 60%;
+    width: 75%;
     height:auto;
 }
 .ripple, a.link, a.item-link, .button, .modal-button, .tab-link, .label-radio, .label-checkbox, .actions-modal-button, a.searchbar-clear, .floating-button
