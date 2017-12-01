@@ -1,22 +1,21 @@
 let anc=<div>
 		<div class="blink">
 			<div id="null"></div>
-            <a class="line" href="page1.html">MKX Characters' Index App</a>
+            <a class="line" href="page1.html">MKX Characters' Index App</a></div>
             
-        </div><div class="ks-demo-icon col-auto tablet-auto"><a href="secretpage.html">
-          <div class="icon"><center><i class="material-icons" style={{color:"orange"}}>help_outline</i></center></div>
+        <div class="ks-demo-icon col-auto tablet-auto"><a href="secretpage.html">
+          <div class="icon"><center>
+          <i class="material-icons" style={{color:"orange"}}>help_outline</i>
+          </center></div>
         </a></div></div>;
 ReactDOM.render(anc,document.getElementById("r"));
-
-ReactDOM.render(<center>
-     </center>, document.getElementById('t'));
-    
-let dom =<center>
-<div class="line1"> Select Your Fighter</div>
+let dom =
+<center>
 <div class="views">
      <div class="view view-main">
             <div class="pages">
-                <div class="page-content"> 
+                <div class="page-content">
+<div class="line1"> Select Your Fighter</div>
     <div class="content-block">
         <div class="row">
             <div class="col-auto tablet-auto"><a href="1.html"><img src="img/1.jpg"/></a></div>
@@ -73,7 +72,7 @@ let dom =<center>
         </div>
     </div>
     </div>
-    <div>
+    </div>
     </div>
     </div>
 </center>;
