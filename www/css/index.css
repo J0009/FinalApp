@@ -134,7 +134,6 @@ h1 {
     font-family: Times New Roman;
     color: rgb(216,201,14);
     font-size: 2em;
-    text-indent: 35%;
     position: fixed;
     animation:fade 1000ms infinite;
     -webkit-animation:fade 1000ms infinite;
