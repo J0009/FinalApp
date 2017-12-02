@@ -49,7 +49,7 @@ body.bg1{
     background-size: cover;
 }
 .bg2{
-    background: url(../img/Background2.jpg) no-repeat fixed center top;
+    background: url(../img/Background2.jpg) no-repeat scroll center top;
     background-size: cover;
 }
 
@@ -144,4 +144,3 @@ img{
     height:auto;
 }
 .ripple, a.link, a.item-link, .button, .modal-button, .tab-link, .label-radio, .label-checkbox, .actions-modal-button, a.searchbar-clear, .floating-button
-
