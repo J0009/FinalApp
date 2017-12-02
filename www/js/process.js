@@ -12,8 +12,8 @@ let p=
 <div class="views bg2">
      <div class="view view-main">
             <div class="pages">
-<div class="page-content ">
-<div class="line1"> Select Your Fighter</div><br/><br/>
+<div class="page-content "><center>
+<div class="line1">Select Your Fighter</div></center><br/><br/>
 <div class="content-block">
     <center>
         <div class="row">
@@ -93,7 +93,7 @@ ReactDOM.render(p, document.getElementById("r"));
             <div class="pages">
                 <div class="page-content">
     
-            <center><img src="img/Alien.jpg"/><br/><br/>
+            <center><img src="img/Alien.jpg" class="img"/><br/><br/>
     <b class="n">Alien(Xenomorph)</b></center>
     <div class="div">
     <ul class="lazy lazy-fadeIn">
@@ -123,7 +123,7 @@ ReactDOM.render(p, document.getElementById("r"));
 <div class="views bg3">
      <div class="view view-main">
             <div class="pages">
-                <div class="page-content"><center><img src="img/Bo Rai Cho.jpg" /><br/><br/>
+                <div class="page-content"><center><img src="img/Bo Rai Cho.jpg" class="img"/><br/><br/>
         <b class="n">Bo' Rai Cho</b></center>
 <div class="div">
     <ul>
@@ -152,7 +152,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-                <center><img src="img/Cassie Cage.jpg" /><br/><br/>
+                <center><img src="img/Cassie Cage.jpg" class="img"/><br/><br/>
     <b class="n">Cassie Cage</b></center>
 <div class="div">
     <ul>
@@ -182,7 +182,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-           <center><img src="img/D'Vorah.jpg" /><br/><br/>
+           <center><img src="img/D'Vorah.jpg" class="img"/><br/><br/>
     <b class="n">D'Vorah</b></center>
 <div class="div">
     <ul>
@@ -211,7 +211,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-            <center><img src="img/Ermac.jpg" /><br/><br/>
+            <center><img src="img/Ermac.jpg" class="img"/><br/><br/>
         <b class="n">Ermac</b></center>
 <div class="div">
     <ul>
@@ -240,7 +240,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-            <center><img src="img/Erron Black.jpg" /><br/><br/>
+            <center><img src="img/Erron Black.jpg" class="img"/><br/><br/>
         <b class="n">Erron Black</b></center>
 <div class="div">
     <ul>
@@ -269,7 +269,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-           <center><img src="img/Ferra Torr.jpg" /><br/><br/>
+           <center><img src="img/Ferra Torr.jpg" class="img"/><br/><br/>
         <b class="n">Ferra &amp; Torr</b></center>
 <div class="div">
     <ul type="disc">
@@ -298,7 +298,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-           <center><img src="img/Goro.jpg" /><br/><br/>
+           <center><img src="img/Goro.jpg" class="img"/><br/><br/>
         <b class="n">Goro</b></center>
 <div class="div">
     <ul>
@@ -327,7 +327,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-          <center><img src="img/Jacqui Briggs.png" /><br/><br/>
+          <center><img src="img/Jacqui Briggs.png" class="img"/><br/><br/>
         <b class="n">Jacqui Briggs</b></center>
 <div class="div">
     <ul>
@@ -356,7 +356,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-          <center><img src="img/Jason.png"/><br/><br/>
+          <center><img src="img/Jason.png" class="img"/><br/><br/>
         <b class="n">Jason Voorhees</b></center>
 <div class="div">
     <ul>
@@ -385,7 +385,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-          <center><img src="img/Jax.png" /><br/><br/>
+          <center><img src="img/Jax.png" class="img"/><br/><br/>
         <b class="n">Jax(Jackson Briggs)</b></center>
 <div class="div">
     <ul>
@@ -414,7 +414,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-          <center><img src="img/Johnny Cage.png" /><br/><br/>
+          <center><img src="img/Johnny Cage.png" class="img"/><br/><br/>
         <b class="n">Johnny Cage</b></center>
 <div class="div">
     <ul>
@@ -443,7 +443,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-           <center><img src="img/Kano.png" /><br/><br/>
+           <center><img src="img/Kano.png" class="img"/><br/><br/>
         <b class="n">Kano</b></center>
 <div class="div">
     <ul>
@@ -472,7 +472,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-           <center><img src="img/Kenshi Takashi.png" /><br/><br/>
+           <center><img src="img/Kenshi Takashi.png" class="img"/><br/><br/>
         <b class="n">Kenshi Takashi</b></center>
 <div class="div">
     <ul>
@@ -501,7 +501,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-           <center><img src="img/Kitana.jpg" /><br/><br/>
+           <center><img src="img/Kitana.jpg" class="img"/><br/><br/>
         <b class="n">Kitana</b></center>
 <div class="div">
     <ul>
@@ -530,7 +530,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-            <center><img src="img/Kotal Kahn.jpg" /><br/><br/>
+            <center><img src="img/Kotal Kahn.jpg" class="img"/><br/><br/>
         <b class="n">Kotal Kahn</b></center>
 <div class="div">
     <ul>
@@ -559,7 +559,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-            <center><img src="img/Kung Jin.png" /><br/><br/>
+            <center><img src="img/Kung Jin.png" class="img"/><br/><br/>
         <b class="n">Kung Jin</b></center>
 <div class="div">
     <ul>
@@ -588,7 +588,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-             <center><img src="img/Kung Lao.jpg" /><br/><br/>
+             <center><img src="img/Kung Lao.jpg" class="img"/><br/><br/>
         <b class="n">Kung Lao</b></center>
 <div class="div">
     <ul>
@@ -617,7 +617,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Leatherface.jpg" /><br/><br/>
+              <center><img src="img/Leatherface.jpg" class="img"/><br/><br/>
         <b class="n">Leatherface</b></center>
 <div class="div">
     <ul>
@@ -646,7 +646,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Liu Kang.jpg" /><br/><br/>
+              <center><img src="img/Liu Kang.jpg" class="img"/><br/><br/>
         <b class="n">Liu Kang</b></center>
 <div class="div">
     <ul>
@@ -675,7 +675,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Mileena.png" /><br/><br/>
+              <center><img src="img/Mileena.png" class="img"/><br/><br/>
         <b class="n">Mileena</b></center>
 <div class="div">
     <ul>
@@ -704,12 +704,12 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Predator.jpg" /><br/><br/>
+              <center><img src="img/Predator.jpg" class="img"/><br/><br/>
         <b class="n">Predator</b></center>
 <div class="div">
     <ul>
     <p class="p"> Variation</p>
-    <li>Warrior</li><li>Warrior</li><li>Warrior</li>
+    <li>Warrior</li><li>Hunter</li><li>Hish-Qu-Ten</li>
     <p class="p">Description</p>
     <li>Adds Yautja Strike, Dread Slam, and Self-Detonate.</li>
     <li>Adds Medi-Kit and Snag.</li>
@@ -733,7 +733,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Quan Chi.jpg" /><br/><br/>
+              <center><img src="img/Quan Chi.jpg" class="img"/><br/><br/>
         <b class="n">Quan Chi</b></center>
 <div class="div">
     <ul>
@@ -762,7 +762,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Raiden.png" /><br/><br/>
+              <center><img src="img/Raiden.png" class="img"/><br/><br/>
         <b class="n">Raiden</b></center>
 <div class="div">
     <ul>
@@ -791,12 +791,12 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Reptile.jpg" /><br/><br/>
+              <center><img src="img/Reptile.jpg" class="img"/><br/><br/>
         <b class="n">Reptile</b></center>
 <div class="div">
     <ul>
     <p class="p"> Variation</p>
-    <li>Noxious</li><li>Noxious</li><li>Noxious</li>
+    <li>Noxious</li><li>Deceptive</li><li>Nimble</li>
     <p class="p">Description</p>
     <li>Gains a persistent noxious cloud that inflicts unblockable damage.</li>
     <li>Gains various stages of invisibility.</li>
@@ -820,7 +820,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Scorpion.jpg" /><br/><br/>
+              <center><img src="img/Scorpion.jpg" class="img"/><br/><br/>
         <b class="n">Scorpion</b></center>
 <div class="div">
     <ul>
@@ -849,7 +849,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Shinnok.jpg" /><br/><br/>
+              <center><img src="img/Shinnok.jpg" class="img"/><br/><br/>
         <b class="n">Shinnok</b></center>
 <div class="div">
     <ul>
@@ -878,7 +878,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Sonya Blade.jpg" /><br/><br/>
+              <center><img src="img/Sonya Blade.jpg" class="img"/><br/><br/>
         <b class="n">Sonya Blade</b></center>
 <div class="div">
     <ul>
@@ -907,7 +907,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Sub Zero.jpg" /><br/><br/>
+              <center><img src="img/Sub Zero.jpg" class="img"/><br/><br/>
         <b class="n">Sub-Zero</b></center>
 <div class="div">
     <ul>
@@ -936,12 +936,12 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Takeda.jpg" /><br/><br/>
+              <center><img src="img/Takeda.jpg" class="img"/><br/><br/>
         <b class="n">Takeda Takahashi</b></center>
 <div class="div">
     <ul>
     <p class="p"> Variation</p>
-    <li>Ronin</li><li>Shirai Ryu</li><li>Shirai Ryu</li>
+    <li>Ronin</li><li>Shirai Ryu</li><li>Lasher</li>
     <p class="p">Description</p>
     <li>Gains unique attacks utilizing dual Pulse Blades.</li>
     <li>Gains Shirai Ryu inspired attacks, such as Quick Phase.</li>
@@ -965,12 +965,12 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Tanya.jpg" /><br/><br/>
+              <center><img src="img/Tanya.jpg" class="img"/><br/><br/>
         <b class="n">Tanya</b></center>
 <div class="div">
     <ul>
     <p class="p"> Variation</p>
-    <li>Kobu Jutsu</li><li>Pyromancer</li><li>Pyromancer</li>
+    <li>Kobu Jutsu</li><li>Pyromancer</li><li>Dragon Naginata</li>
     <p class="p">Description</p>
     <li>Gains Tonfa toss, Blade Dive, and attacks utilizing her Tonfas.</li>
     <li>Gains Dark Shroud, Low Fireball, and High Fireball.</li>
@@ -994,12 +994,12 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Tremor.jpg" /><br/><br/>
+              <center><img src="img/Tremor.jpg" class="img"/><br/><br/>
         <b class="n">Tremor</b></center>
 <div class="div">
     <ul>
     <p class="p"> Variation</p>
-    <li>Aftershock</li><li>Crystalline</li><li>Crystalline</li>
+    <li>Aftershock</li><li>Crystalline</li><li>Metallic</li>
     <p class="p">Description</p>
     <li>Gains Earth Shake and Air Earth Shake.</li>
     <li>Gains Krystallization and Summon Krystal.</li>
@@ -1023,7 +1023,7 @@ ReactDOM.render(p, document.getElementById("r"));
      <div class="view view-main">
             <div class="pages">
                 <div class="page-content">
-              <center><img src="img/Triborg.jpg" /><br/><br/>
+              <center><img src="img/Triborg.jpg" class="img"/><br/><br/>
         <b class="n">Triborg</b></center>
 <div class="div">
     <ul>
