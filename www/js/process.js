@@ -9,90 +9,70 @@
 let process = {
     char:function(){
 let p=
-<div class="views bg2">
-     <div class="view view-main">
-            <div class="pages">
-<div class="page-content "><center>
-<div class="line1">Select Your Fighter</div></center><br/><br/>
-<div class="content-block">
-    <center>
+<body className="bg2">
+<center>
+<div class="line1">Select Your Fighter</div><br/><br/>
         <div class="row">
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.alien}><img src="img/1.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.bo}><img src="img/2.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.cassie}><img src="img/3.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.d}><img src="img/4.jpg" class="lazy lazy-fadeIn"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.alien}><img src="img/1.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.bo}><img src="img/2.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.cassie}><img src="img/3.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.d}><img src="img/4.jpg"/></a></div>
         </div><br/>
-    <div class="content-block">
         <div class="row">
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.ermac}><img src="img/5.png" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.erron}><img src="img/6.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.FnT}><img src="img/7.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Goro}><img src="img/8.jpg" class="lazy lazy-fadeIn"/></a></div>
-        </div></div><br/>
-    <div class="content-block">
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.ermac}><img src="img/5.png"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.erron}><img src="img/6.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.FnT}><img src="img/7.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Goro}><img src="img/8.jpg"/></a></div>
+        </div><br/>
         <div class="row">
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.jacqui}><img src="img/9.png" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.jason}><img src="img/10.png" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Jax}><img src="img/11.png" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Johnny}><img src="img/12.png" class="lazy lazy-fadeIn"/></a></div>
-        </div></div><br/>
-    <div class="content-block">
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.jacqui}><img src="img/9.png"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.jason}><img src="img/10.png"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Jax}><img src="img/11.png"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Johnny}><img src="img/12.png"/></a></div>
+        </div><br/>
         <div class="row">
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kano}><img src="img/13.png" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kenshi}><img src="img/14.png" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kitana}><img src="img/15.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kotal}><img src="img/16.jpg" class="lazy lazy-fadeIn"/></a></div>
-        </div></div><br/>
-    <div class="content-block">
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kano}><img src="img/13.png"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kenshi}><img src="img/14.png"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kitana}><img src="img/15.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kotal}><img src="img/16.jpg"/></a></div>
+        </div><br/>
         <div class="row">
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kung}><img src="img/17.png" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kung1}><img src="img/18.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Leatherface}><img src="img/19.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Liu}><img src="img/20.jpg" class="lazy lazy-fadeIn"/></a></div>
-        </div></div><br/>
-    <div class="content-block">
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kung}><img src="img/17.png"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Kung1}><img src="img/18.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Leatherface}><img src="img/19.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Liu}><img src="img/20.jpg"/></a></div>
+        </div><br/>
         <div class="row">
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Mileena}><img src="img/21.png" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Predator}><img src="img/22.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Quan}><img src="img/23.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Raiden}><img src="img/24.png" class="lazy lazy-fadeIn"/></a></div>
-        </div></div><br/>
-    <div class="content-block">
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Mileena}><img src="img/21.png"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Predator}><img src="img/22.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Quan}><img src="img/23.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Raiden}><img src="img/24.png"/></a></div>
+        </div><br/>
         <div class="row">
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Reptile}><img src="img/25.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Scorpion}><img src="img/26.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Shinnok}><img src="img/27.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Sonya}><img src="img/28.jpg" class="lazy lazy-fadeIn"/></a></div>
-        </div></div><br/>
-    <div class="content-block">
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Reptile}><img src="img/25.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Scorpion}><img src="img/26.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Shinnok}><img src="img/27.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Sonya}><img src="img/28.jpg"/></a></div>
+        </div><br/>
         <div class="row">
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.SubZero}><img src="img/29.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Takeda}><img src="img/30.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Tanya}><img src="img/31.jpg" class="lazy lazy-fadeIn"/></a></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Tremor}><img src="img/32.jpg" class="lazy lazy-fadeIn"/></a></div>
-        </div></div><br/>
-    <div class="content-block">
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.SubZero}><img src="img/29.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Takeda}><img src="img/30.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Tanya}><img src="img/31.jpg"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Tremor}><img src="img/32.jpg"/></a></div>
+        </div><br/>
         <div class="row">
             <div class="col-auto tablet-auto"><img src="img/34.jpg" class="lazy lazy-fadeIn"/></div>
-            <div class="col-auto tablet-auto"><a href="#" onClick={process.Triborg}><img src="img/33.jpg" class="lazy lazy-fadeIn"/></a></div>
+            <div class="col-auto tablet-auto"><a href="#" onClick={process.Triborg}><img src="img/33.jpg"/></a></div>
             <div class="col-auto tablet-auto"><img src="img/34.jpg" class="lazy lazy-fadeIn"/></div>
-        </div></div>
+        </div>
       </center>
-  </div>
-</div>
-</div>
-</div>
-</div>
+  </body>
 ReactDOM.render(p, document.getElementById("r"));
 
     },
     alien:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
-    
+<div class="bg3">
             <center><img src="img/Alien.jpg" class="img"/><br/><br/>
     <b class="n">Alien(Xenomorph)</b></center>
     <div class="div">
@@ -112,18 +92,13 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
     </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     bo:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content"><center><img src="img/Bo Rai Cho.jpg" class="img"/><br/><br/>
+<div class="bg3">
+<center><img src="img/Bo Rai Cho.jpg" class="img"/><br/><br/>
         <b class="n">Bo' Rai Cho</b></center>
 <div class="div">
     <ul>
@@ -140,19 +115,13 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>  
     </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     cassie:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
-                <center><img src="img/Cassie Cage.jpg" class="img"/><br/><br/>
+<div class="bg3">
+        <center><img src="img/Cassie Cage.jpg" class="img"/><br/><br/>
     <b class="n">Cassie Cage</b></center>
 <div class="div">
     <ul>
@@ -169,20 +138,14 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
 
     d:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
-           <center><img src="img/D'Vorah.jpg" class="img"/><br/><br/>
+<div class="bg3">
+<center><img src="img/D'Vorah.jpg" class="img"/><br/><br/>
     <b class="n">D'Vorah</b></center>
 <div class="div">
     <ul>
@@ -199,18 +162,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     ermac:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
             <center><img src="img/Ermac.jpg" class="img"/><br/><br/>
         <b class="n">Ermac</b></center>
 <div class="div">
@@ -228,18 +185,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     erron:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
             <center><img src="img/Erron Black.jpg" class="img"/><br/><br/>
         <b class="n">Erron Black</b></center>
 <div class="div">
@@ -257,18 +208,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     FnT:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
            <center><img src="img/Ferra Torr.jpg" class="img"/><br/><br/>
         <b class="n">Ferra &amp; Torr</b></center>
 <div class="div">
@@ -286,18 +231,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Goro:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
            <center><img src="img/Goro.jpg" class="img"/><br/><br/>
         <b class="n">Goro</b></center>
 <div class="div">
@@ -315,18 +254,12 @@ ReactDOM.render(p, document.getElementById("r"));
 </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     jacqui:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
           <center><img src="img/Jacqui Briggs.png" class="img"/><br/><br/>
         <b class="n">Jacqui Briggs</b></center>
 <div class="div">
@@ -344,18 +277,12 @@ ReactDOM.render(p, document.getElementById("r"));
 </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     jason:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
           <center><img src="img/Jason.png" class="img"/><br/><br/>
         <b class="n">Jason Voorhees</b></center>
 <div class="div">
@@ -373,18 +300,12 @@ ReactDOM.render(p, document.getElementById("r"));
 </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Jax:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
           <center><img src="img/Jax.png" class="img"/><br/><br/>
         <b class="n">Jax(Jackson Briggs)</b></center>
 <div class="div">
@@ -402,18 +323,12 @@ ReactDOM.render(p, document.getElementById("r"));
 </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Johnny:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
           <center><img src="img/Johnny Cage.png" class="img"/><br/><br/>
         <b class="n">Johnny Cage</b></center>
 <div class="div">
@@ -431,18 +346,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Kano:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
            <center><img src="img/Kano.png" class="img"/><br/><br/>
         <b class="n">Kano</b></center>
 <div class="div">
@@ -460,18 +369,12 @@ ReactDOM.render(p, document.getElementById("r"));
 </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Kenshi:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
            <center><img src="img/Kenshi Takashi.png" class="img"/><br/><br/>
         <b class="n">Kenshi Takashi</b></center>
 <div class="div">
@@ -489,18 +392,12 @@ ReactDOM.render(p, document.getElementById("r"));
 </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Kitana:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
            <center><img src="img/Kitana.jpg" class="img"/><br/><br/>
         <b class="n">Kitana</b></center>
 <div class="div">
@@ -518,18 +415,12 @@ ReactDOM.render(p, document.getElementById("r"));
 </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Kotal:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
             <center><img src="img/Kotal Kahn.jpg" class="img"/><br/><br/>
         <b class="n">Kotal Kahn</b></center>
 <div class="div">
@@ -547,18 +438,12 @@ ReactDOM.render(p, document.getElementById("r"));
 </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Kung:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
             <center><img src="img/Kung Jin.png" class="img"/><br/><br/>
         <b class="n">Kung Jin</b></center>
 <div class="div">
@@ -576,18 +461,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Kung1:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
              <center><img src="img/Kung Lao.jpg" class="img"/><br/><br/>
         <b class="n">Kung Lao</b></center>
 <div class="div">
@@ -605,18 +484,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Leatherface:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Leatherface.jpg" class="img"/><br/><br/>
         <b class="n">Leatherface</b></center>
 <div class="div">
@@ -634,18 +507,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Liu:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Liu Kang.jpg" class="img"/><br/><br/>
         <b class="n">Liu Kang</b></center>
 <div class="div">
@@ -663,18 +530,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Mileena:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Mileena.png" class="img"/><br/><br/>
         <b class="n">Mileena</b></center>
 <div class="div">
@@ -692,18 +553,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Predator:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Predator.jpg" class="img"/><br/><br/>
         <b class="n">Predator</b></center>
 <div class="div">
@@ -721,18 +576,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Quan:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Quan Chi.jpg" class="img"/><br/><br/>
         <b class="n">Quan Chi</b></center>
 <div class="div">
@@ -750,18 +599,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Raiden:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Raiden.png" class="img"/><br/><br/>
         <b class="n">Raiden</b></center>
 <div class="div">
@@ -779,18 +622,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Reptile:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Reptile.jpg" class="img"/><br/><br/>
         <b class="n">Reptile</b></center>
 <div class="div">
@@ -808,18 +645,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Scorpion:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Scorpion.jpg" class="img"/><br/><br/>
         <b class="n">Scorpion</b></center>
 <div class="div">
@@ -837,18 +668,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Shinnok:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Shinnok.jpg" class="img"/><br/><br/>
         <b class="n">Shinnok</b></center>
 <div class="div">
@@ -866,18 +691,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Sonya:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Sonya Blade.jpg" class="img"/><br/><br/>
         <b class="n">Sonya Blade</b></center>
 <div class="div">
@@ -895,18 +714,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     SubZero:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Sub Zero.jpg" class="img"/><br/><br/>
         <b class="n">Sub-Zero</b></center>
 <div class="div">
@@ -924,18 +737,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Takeda:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Takeda.jpg" class="img"/><br/><br/>
         <b class="n">Takeda Takahashi</b></center>
 <div class="div">
@@ -953,18 +760,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Tanya:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Tanya.jpg" class="img"/><br/><br/>
         <b class="n">Tanya</b></center>
 <div class="div">
@@ -982,18 +783,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Tremor:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Tremor.jpg" class="img"/><br/><br/>
         <b class="n">Tremor</b></center>
 <div class="div">
@@ -1011,18 +806,12 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
     },
     Triborg:function(){
         let p = 
-<div class="views bg3">
-     <div class="view view-main">
-            <div class="pages">
-                <div class="page-content">
+<div class="bg3">
               <center><img src="img/Triborg.jpg" class="img"/><br/><br/>
         <b class="n">Triborg</b></center>
 <div class="div">
@@ -1042,17 +831,8 @@ ReactDOM.render(p, document.getElementById("r"));
     </ul>
     <center><a href="#" onClick={process.char}><div class="ks-demo-icon col-auto tablet-auto"><div class="icon" style={{color:"orange"}}><i class="material-icons">home</i></div></div></a></center>
 </div>
-    </div>
-    </div>
-    </div>
     </div>;
             ReactDOM.render(p,document.getElementById('r'));
-    },
-    page4:function(){
-    let content = <div>
-                this is page 4<br/><a href='#' onClick={process.menu}>back</a>
-            </div>;
-            ReactDOM.render(content,document.getElementById('root'));
     },
     s:function(){
 let p=<center>

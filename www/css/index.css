@@ -23,9 +23,11 @@
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    /*-webkit-user-select: none;                   prevent copy paste, to allow, change 'none' to 'text' 
+    background-color:#E4E4E4;*/
+    background: url(../img/Background1.jpg) no-repeat fixed center top;
+    background-size: cover;
+    /*background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-gradient(
@@ -42,14 +44,12 @@ body {
     margin:0px;
     padding:0px;
     text-transform:uppercase;
-    width:100%;
-}
-body.bg1{
-    background: url(../img/Background1.jpg) no-repeat fixed center top;
-    background-size: cover;
+    width:100%;*/
+    overflow-wrap: all;
+    overflow: auto;
 }
 .bg2{
-    background: url(../img/Background2.jpg) no-repeat scroll center top;
+    background: url(../img/Background2.jpg) no-repeat fixed center top;
     background-size: cover;
 }
 
@@ -134,12 +134,15 @@ h1 {
     font-family: Times New Roman;
     color: rgb(216,201,14);
     font-size: 2em;
-    position: fixed;
+    position: center:
+    position
     animation:fade 1000ms infinite;
     -webkit-animation:fade 1000ms infinite;
 }
 img{
     width: 75%;
     height:auto;
+}
+div{
 }
 .ripple, a.link, a.item-link, .button, .modal-button, .tab-link, .label-radio, .label-checkbox, .actions-modal-button, a.searchbar-clear, .floating-button
